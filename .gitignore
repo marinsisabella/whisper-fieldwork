@@ -1,0 +1,16 @@
+# Never commit recordings or transcripts: fieldwork data is confidential.
+audio/
+transcripts/
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.flac
+*.txt
+*.csv
+*.srt
+!requirements.txt
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
